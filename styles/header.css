@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo > .text {
+  font-weight: 500;
+}
+
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+#nav-list .link {
+  margin-left: 48px;
+}
+.link--red {
+  color: var(--red-color);
+  font-weight: 500;
+}
