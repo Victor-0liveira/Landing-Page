@@ -19,9 +19,19 @@ header {
   flex-direction: row;
 }
 #nav-list .link {
-  margin-left: 48px;
+  margin-left: 40px;
 }
+
 .link--red {
   color: var(--red-color);
   font-weight: 500;
+}
+#theme-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }

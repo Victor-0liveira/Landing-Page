@@ -4,3 +4,6 @@ footer {
   font-weight: bold;
   font-size: 1.8em;
 }
+.link-hover:hover {
+  color: palevioletred;
+}

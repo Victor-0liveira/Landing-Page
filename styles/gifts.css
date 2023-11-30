@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: left;
   flex-wrap: wrap;
-  width: 70%;
+  width: 65%;
   justify-items: left;
   margin-top: 33px;
 }
@@ -30,6 +30,10 @@
   margin-bottom: 40px;
   cursor: pointer;
   justify-content: center;
+}
+.gift-card:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 .gift-card-title {
   font-size: 20px;
@@ -51,4 +55,5 @@
 }
 .gift-card-text {
   width: 100%;
+  color: var(--gray-color);
 }
