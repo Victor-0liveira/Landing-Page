@@ -1,6 +1,6 @@
 #gifts {
   text-align: center;
-  padding-bottom: 400px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,10 +9,10 @@
 #gift-card-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   width: 70%;
-  justify-items: center;
+  justify-items: left;
   margin-top: 33px;
 }
 .gift-card {
@@ -29,10 +29,11 @@
   margin-right: 40px;
   margin-bottom: 40px;
   cursor: pointer;
+  justify-content: center;
 }
 .gift-card-title {
   font-size: 20px;
-  margin-bottom: -10px;
+  margin-bottom: 30px;
 }
 .gift-card-subtitle {
   font-size: 14px;
