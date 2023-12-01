@@ -1,0 +1,16 @@
+#merry-christmas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 67px;
+}
+
+#button-text {
+  color: #fff;
+}
+#merrry-christmas-text {
+  color: var(--gray-color);
+}
+.merry-christmas-article {
+  width: 30%;
+}

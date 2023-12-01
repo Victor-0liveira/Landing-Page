@@ -1,25 +1,23 @@
-#gifts {
+#Start {
+  display: flex;
   text-align: center;
   padding-bottom: 40px;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-#gift-card-container {
+#giving-containers {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
   width: 60%;
   justify-items: left;
   margin-top: 33px;
 }
-.gift-card {
+.giving-cards {
   width: 200px;
   height: 247px;
   border-radius: 12px;
-  box-shadow: 0px 4px 24px 0px rgba(48, 29, 30, 0.1);
   text-align: left;
   padding: 30px;
   padding-bottom: 10px;
@@ -31,29 +29,6 @@
   cursor: pointer;
   justify-content: center;
 }
-.gift-card:hover {
-  transform: scale(1.1);
-  transition: 0.4s;
-}
-.gift-card-title {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-.gift-card-subtitle {
-  font-size: 14px;
-  color: var(--gray-color);
-}
-.gift-card-image {
-  width: 120px;
-  height: 120px;
-}
-.gift-card-heart {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  left: 90px;
-}
-.gift-card-text {
-  width: 100%;
+.giving-card-text-subtittle {
   color: var(--gray-color);
 }

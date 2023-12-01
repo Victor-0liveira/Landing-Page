@@ -9,7 +9,14 @@
     <link rel="stylesheet" type="text/css" href="./styles/home.css" />
     <link rel="stylesheet" type="text/css" href="./styles/gifts.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/giving.css" />
     <link rel="stylesheet" type="text/css" href="./styles/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/new.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./styles/merry-christmas.css"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,8 +37,8 @@
       </div>
       <nav>
         <ul id="nav-list">
-          <li><a class="link link--red" href="#home">Home</a></li>
-          <li><a class="link" href="#celebrate">Celebrate</a></li>
+          <li><a class="link link--red" href="#merry-christmas">Home</a></li>
+          <li><a class="link" href="#home">Celebrate</a></li>
           <li><a class="link" href="#gifts">Gifts</a></li>
           <li><a class="link" href="#new">New</a></li>
           <li>
@@ -44,6 +51,61 @@
     </header>
 
     <main>
+      <section id="merry-christmas">
+        <artcicle class="merry-christmas-article">
+          <img src="./assets/Merry_Christmas.svg" alt="Merry_Christmas" />
+        </artcicle>
+        <article class="merry-christmas-article">
+          <h1 class="title">
+            Merry Christmas and <br />
+            Happy New Year!
+          </h1>
+          <p class="text" id="merrry-christmas-text">
+            Christmas and a new year is about to begin, all<br />
+            good wishes and successes.
+          </p>
+          <button class="button"><p id="button-text">Get Started</p></button>
+        </article>
+      </section>
+      <section id="Start">
+        <h1 class="title">
+          Start Giving This<br />
+          Christmas
+        </h1>
+        <article id="giving-containers">
+          <div class="giving-cards">
+            <img src="./assets/surprise-gifts.svg" alt="Surprise-Gifts" />
+            <div class="giving-cards-text">
+              <h3 class="giving-card-text-title">Surprise gifts</h3>
+              <p class="giving-card-text-subtittle">
+                They are the best <br />
+                gifts there is.
+              </p>
+            </div>
+          </div>
+          <div class="giving-cards">
+            <img src="./assets/ornaments.svg" alt="Ornaments" />
+            <div class="giving-cards-text">
+              <h3 class="giving-card-text-title">Ornaments</h3>
+              <p class="giving-card-text-subtittle">
+                Give a moment to <br />
+                decorate
+              </p>
+            </div>
+          </div>
+          <div class="giving-cards">
+            <img src="./assets/lots_of_love.svg" alt="Lots_of_love" />
+            <div class="giving-cards-text">
+              <h3 class="giving-card-text-title">Lots of love</h3>
+              <p class="giving-card-text-subtittle">
+                Give away feelings <br />
+                that last forever
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
       <section id="home">
         <article class="home-article">
           <h1 class="title">
@@ -55,7 +117,7 @@
             blessings to our loved ones, friends and neighbors, wishing them a
             good Christmas message.
           </p>
-          <button id="button">
+          <button class="button">
             <a
               class="link"
               href="https://github.com/Victor-0liveira"
@@ -130,6 +192,72 @@
           </div>
         </article>
       </section>
+
+      <section id="new">
+        <h1 class="title">New Gifts</h1>
+        <article id="new-card-container">
+          <div class="new-card">
+            <div class="semi-circle">
+              <img class="new-image" src="./assets/wreath.svg" alt="wreath" />
+            </div>
+            <div class="new-card-text">
+              <h3 class="new-card-tittle">$18</h3>
+              <p class="new-card-subtittle">Christmas Wreath</p>
+            </div>
+            <button class="new-heart">
+              <img
+                class="new-heart-image"
+                src="./assets/white-heart.svg"
+                alt="heart"
+              />
+            </button>
+          </div>
+
+          <div class="new-card">
+            <div class="semi-circle">
+              <img
+                class="new-image"
+                src="./assets/raindeer.svg"
+                alt="reindeer"
+              />
+            </div>
+            <div class="new-card-text">
+              <h3 class="new-card-tittle">$95</h3>
+              <p class="new-card-subtittle">Reindeer</p>
+            </div>
+            <button class="new-heart">
+              <img
+                class="new-heart-image"
+                src="./assets/white-heart.svg"
+                alt="heart"
+              />
+            </button>
+          </div>
+          <div class="new-card">
+            <div class="semi-circle">
+              <img
+                class="new-image"
+                src="./assets/snow_globe.svg"
+                alt="Snow Globe"
+              />
+            </div>
+
+            <div class="new-card-text">
+              <h3 class="new-card-tittle">$20</h3>
+              <p class="new-card-subtittle">Snow globe</p>
+            </div>
+            <button class="new-heart">
+              <img
+                class="new-heart-image"
+                src="./assets/white-heart.svg"
+                alt="heart"
+              />
+            </button>
+          </div>
+        </article>
+        <img class="carousel" src="./assets/carousel.svg" alt="carousel" />
+      </section>
+
       <section id="celebrate">
         <footer>
           <p class="text">
