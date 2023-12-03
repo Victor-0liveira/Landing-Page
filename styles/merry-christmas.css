@@ -1,8 +1,10 @@
 #merry-christmas {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-bottom: 67px;
+  justify-content: right;
+  padding-bottom: 56px;
+  padding-top: 64px;
+  width: auto;
 }
 
 #button-text {
@@ -12,5 +14,5 @@
   color: var(--gray-color);
 }
 .merry-christmas-article {
-  width: 30%;
+  width: 40%;
 }

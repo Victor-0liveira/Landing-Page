@@ -1,9 +1,41 @@
 footer {
-  text-align: center;
-  height: 100px;
-  font-weight: bold;
-  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+#footer-logo {
+  display: flex;
+  align-items: center;
 }
 .link-hover:hover {
   color: palevioletred;
+}
+.footer-article {
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-image {
+  flex-wrap: wrap;
+  display: flex;
+  padding-bottom: 10px;
+}
+#final {
+  display: flex;
+  justify-content: center;
+}
+#footer-ball-second {
+  padding-top: 80px;
+}
+#footer-ball-first {
+  padding-top: 40px;
+}
+.footer-article .text {
+  color: var(--gray-color);
+  font-weight: 400;
+}
+#title-footer {
+  color: var(--black-color);
+  font-size: 20px;
+  padding-left: 5px;
 }

@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: left;
   flex-wrap: wrap;
-  width: 60%;
+  width: 65%;
   justify-items: left;
   margin-top: 33px;
 }
@@ -38,6 +38,7 @@
 .gift-card-title {
   font-size: 20px;
   margin-bottom: 30px;
+  color: var(--black-color);
 }
 .gift-card-subtitle {
   font-size: 14px;

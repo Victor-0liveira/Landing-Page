@@ -3,6 +3,7 @@
   --black-color: #282525;
   --red-color: #dc3845;
   --text-size: 16px;
+  --white-color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,10 +18,17 @@
 .title {
   font-size: 24px;
 }
+
 .dark-theme {
   background-color: #000;
-  --gray-color: white;
-  --black-color: white;
+  --gray-color: #c2bdbd;
+  --black-color: #f3f2f2;
   --red-color: #dc3845;
+
   color: white;
+}
+.dark-theme #forms {
+  --red-color: #2f2223;
+  --white-color: #251819;
+  --black-color: #dc3845;
 }

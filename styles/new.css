@@ -73,3 +73,6 @@
 #new .title {
   padding-bottom: 30px;
 }
+.new-card-tittle {
+  color: var(--black-color);
+}

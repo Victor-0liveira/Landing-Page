@@ -2,6 +2,8 @@
 const themeButton = document.getElementById("theme-button");
 themeButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-theme");
+  const isDarkMode = document.body.classList.contains("dark-theme");
+  input.style.color = isDarkMode ? "white" : "black";
 });
 
 // parte para os cards da parte gift serem selecionáveis
